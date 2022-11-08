@@ -13,6 +13,7 @@ class _TelaAdicionarState extends State<TelaAdicionar> {
   final _nome = TextEditingController();
   final _cidade = TextEditingController();
   final _endereco = TextEditingController();
+  final _cep = TextEditingController();
   final _nascimento = TextEditingController();
   Widget build(BuildContext context) {
     print("adicionar");
